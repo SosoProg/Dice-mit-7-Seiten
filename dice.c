@@ -12,7 +12,7 @@ void say_hello(){
 }
 
 int roll_dice(){
-    return rand() % 7 + 1;
+    return rand() % 7 + 1; // 7+1
 }
 
 void print_dice_face(int dice){
