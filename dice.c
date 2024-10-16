@@ -12,7 +12,7 @@ void say_hello(){
 }
 
 int roll_dice(){
-    return rand() % 6 + 1;
+    return rand() % 7 + 1;
 }
 
 void print_dice_face(int dice){
@@ -57,6 +57,13 @@ void print_dice_face(int dice){
             printf("  | o   o | \n");
             printf("  | o   o | \n");
             printf("  | o   o | \n");
+            printf("  |_______| \n");
+            break;
+        case 7:
+            printf("   _______  \n");
+            printf("  | o o o | \n");
+            printf("  |   o   | \n");
+            printf("  | o o o | \n");
             printf("  |_______| \n");
             break;
         default:
